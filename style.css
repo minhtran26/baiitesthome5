@@ -1,0 +1,656 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans');*/
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+	width: 100%;
+	height: auto;
+}
+
+header{
+	width: 100%;
+	overflow: auto;
+	position: relative;
+}
+
+.header-left{
+	width: 50%;
+	float: left;
+}
+
+.header-right{
+	width: 50%;
+	float: right;
+}
+
+.header-left ul, .header-right ul{
+	margin: 0;
+	padding: 0;
+}
+
+.header-left ul li{
+	float: left;
+	list-style-type: none;
+}
+
+.header-left ul li a{
+	display: block;
+	font-style: italic;
+	font-size: 14px;
+	color: #3f3f3f;
+	padding: 48px 25px 41px 0;
+	transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+}
+
+.header-left ul li a:hover{
+	text-decoration: none;
+	color: orange;
+}
+
+.header-right ul li{
+	float: right;
+}
+
+.header-right ul li a.login{
+	display: block;
+	color: #30373b;
+	font-size:14px;
+	padding: 48px 0 41px 0;
+}
+
+.header-right ul li a.login:hover{
+	color: orange;
+	text-decoration: none;
+}
+
+.header-right ul li a img{
+	padding: 29px 0 0 31px;
+}
+
+a.logoweb{
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	left: 50%;
+	margin-top: 4px;
+}
+
+a.logoweb img{
+	width: 100%;
+}
+
+/*=====================START SLIDE BANNER ======================*/
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	width:15px !important;
+	height: 26px !important;
+}
+
+.carousel-control-prev-icon{
+	margin-left: 216px!important;
+}
+
+.carousel-control-next-icon{
+	margin-right: 216px!important;
+}
+
+
+.captiontext{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 999;
+	margin-left: -50px;
+	margin-top: -50px; 
+}
+
+
+#slidebanner span.title-slidebanner{
+	font-size: 45px;
+	color: white;
+	display: block;
+	width: 100%;
+	transform: translateX(-136px);
+	top: 232px;
+}
+
+#slidebanner a.slide-readmore{
+	display: inline-block;
+	text-transform: uppercase;
+	width: 129px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid white;
+	color: white;
+	transition: all 0.4s ease;
+	font-size: 16px;
+	bottom: 205px;
+
+}
+
+#slidebanner a.slide-readmore:hover{
+	background: orange;
+	text-decoration: none;
+}
+
+
+
+/*========================START TOP BLLOGGER========================*/
+
+.topblogger{
+	background: #edecec;
+
+}
+
+.section-box-topblogger{
+	padding-top: 71px;
+	padding-bottom: 78px;
+}
+
+.title-topblogger{
+	width: 100%;
+	text-align: center;
+	display: block;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding-bottom: 54px;
+}
+
+.title-icon-tb{
+	width: 128px;
+	height: 28px;
+	margin: auto;
+}
+
+.title-icon-tb img{
+	width: 100%;
+	height: 100%;
+
+}
+
+.title-topblogger h3{
+	display: inline-block;
+	margin-top: 21px;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #30373b;
+	font-weight: bold;
+}
+
+.owl-carousel .owl-prev img{
+  width: 15px;
+  height: 26px;
+  position: absolute;
+  top: 40%;;
+  transform: translateY(-50%);
+  left: -21px;
+  z-index: 999;
+}
+
+
+.owl-carousel .owl-next img{
+  width: 15px;
+  height: 26px;
+  position: absolute;
+  top: 40%;;
+  transform: translateY(-50%);
+  left: auto;
+  right: -21px;
+  z-index: 999; 
+}
+
+.owl-carousel .item p{
+  text-align: center;
+  font-size: 18px;
+  display: block;
+  margin-top: 25px;
+}
+
+.owl-carousel .owl-item{
+  width: 160px!important;
+}
+
+/*=========================STAR BẠN CẦN BIẾT============================*/
+
+section.banCanbiet{
+	background: #e5e5e5;
+	padding-bottom: 86px;
+}
+
+.title-bancanbiet{
+	display: block;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom:38px;
+}
+
+.title-icon-bcb{
+	width: 128px;
+	height: 28px;
+	margin: auto;
+}
+
+.title-bancanbiet h3{
+	padding-top: 15px;
+	font-size: 20px;
+	color: #30373b;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.bcb-content{
+	padding-left: 25px;
+	padding-right: 20px;
+	
+	background: white;
+	overflow: hidden;
+}
+
+.ticker{
+	width: 30px;
+    height: 30px;
+    background: white;
+    position: absolute;
+    z-index: 1;
+    transform: translateY(-18px) translateX(68px) rotate(45deg);
+    transform-origin: 50% 50%;
+    display: block;
+
+}
+
+.bcb-title{
+	font-size: 24px;
+	color: #30373b;
+	padding: 49px 0 5px 0;
+	display: inline-block;
+	border-bottom: 1px solid #ff6c6f;
+}
+
+.bcb-content p{
+	font-size: 14px;
+	color: #30373b;
+	padding-top: 17px;
+	padding-bottom: 28px;
+	line-height: 26px;
+	display: inline-block;
+	
+}
+
+p.bcb-date{
+	float: right;
+	display: block;
+	padding: 0 0 3px 8px;
+	font-size: 12px;
+	color: #000000;
+	border-left: 1px solid #ff6c6f;
+	margin-bottom: 8px;
+}
+
+/*=============================STAR REVIEW=========================*/
+
+.section-box-review{
+	display: block;
+	background: #edecec;
+	
+}
+
+.rv-img img{
+	width: 100%;
+}
+
+.title-review{
+	width: 100%;
+	padding: 33px 0 41px 0;
+	text-align: center;
+	display: block;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.title-icon-rv{
+	width: 128px;
+	height: 28px;
+	margin: auto;
+}
+
+.title-review h3{
+	padding-top: 26px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #30373b;
+	text-transform: uppercase;
+}
+
+.rv-post{
+	display: block;
+	padding-bottom: 28px;
+	overflow: hidden;
+	background: white;
+	margin-bottom: 28px;
+}
+
+.rv-ticker{
+	width: 30px;
+    height: 30px;
+    background: white;
+    position: absolute;
+    z-index: 1;
+    transform: translateY(-10px) translateX(29px) rotate(45deg);
+    transform-origin: 50% 50%;
+    display: block;
+
+}
+
+.rv-content{
+	padding-bottom: 28px;
+	
+}
+
+.rv-content a{
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #838383!important;
+	padding-top: 27px;
+	display: block;
+}
+
+.rv-content a b{
+	color: #000000;
+
+}
+
+.rv-title{
+	padding-top: 14px;
+	display: block;
+	font-size: 20px;
+	color: #30373b;
+	border-bottom:1px solid #ff6c6f;
+	padding-bottom: 5px;
+}
+
+.rv-content p{
+	color: #30373b;
+	font-size: 14px;
+	line-height: 26px;
+	padding-top: 17px;
+}
+
+.rv-content{
+	padding-left: 17px;
+	padding-right: 21px;	
+}
+
+p.rv-date{
+	float: right;
+	right: 0;
+	padding:0 0 3px 8px;
+	border-left:1px solid #ff6c6f;
+	margin-bottom: 7px;
+	margin-top: 31px;
+}
+
+.readmore{
+	width: 100%;
+	display: block;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #30373b;
+	margin-top: 12px;
+	margin-bottom: 72px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.readmore:hover{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*=================== STAR CONNECT TO WITH=======================*/
+
+.connect{
+	background: #e5e5e5;
+}
+
+.connect-title{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	display: block;
+	padding-top: 44px;
+	padding-bottom: 57px;
+	clear: both;
+}
+
+.connect-title img{
+	width: 128px;
+	height: 28px;
+	display: block;
+	margin: auto;
+
+}
+
+.connect-title h3{
+	display: inline-block;
+	padding-top: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.icon-connect ul{
+	padding: 0;
+	margin: 0;
+}
+
+.icon-connect ul li{
+	list-style-type:none;
+	float: left;
+}
+
+.icon-connect ul li a{
+	padding: 0 24px 0 24px;
+}
+
+.icon-connect ul li a img{
+    filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%);
+    transition: all 0.4s;
+}
+
+.icon-connect ul li a:hover img{
+    filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: none ; /* IE6-9 */
+    zoom:1;
+    -webkit-filter: grayscale(0%);
+}
+
+
+.icon-connect{
+	padding-bottom: 60px;
+}
+
+/*============================STAR PRODUCT=============================*/
+
+.product{
+	background: #edecec;
+}
+
+.product-title{
+	padding-top: 70px;
+	padding-bottom: 78px;
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+.product-title h3{
+	display: block;
+	padding-top: 22px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.product-slide{
+	width: 100%;
+	padding-bottom: 47px;
+}
+
+.product .owl-item{
+	width: 165px!important;
+	height: 48px!important;
+}
+
+.product .owl-prev img, .product .owl-next img{
+	width: 10px;
+	height: 16px;
+    transform: translateY(-14px);
+}
+
+/*============================STAR FOOTER============================*/
+
+.footer{
+	background: #e5e5e5;
+}
+
+.footer .footer-top{
+	display: inline-block;
+	width: 100%;
+	margin: auto;
+}
+
+.footer-top ul{
+	margin:0;
+	padding: 0;
+	text-align:center;
+}
+
+.footer-top ul li{
+	list-style-type:none;
+	
+	display:inline; 
+}
+
+.footer-top ul li a{
+	font-size: 14px;
+	color: #010101;
+	padding: 52px 32px 22px 32px;
+	text-align: center;
+	display:inline-block;
+}
+
+.footer-top ul li a:hover{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.footer-bottom{
+	clear: both;
+
+}
+
+.footer-bottom p{
+	padding: 20px 0 146px 0;
+	display: block;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+
+}
+
+@media screen and (max-width: 1024px){
+	.header-left{
+		width: 100%;
+		float: left;
+	}
+
+	.header-right{
+		width: 100%;
+		float: left;
+	}
+
+	a.logoweb{
+		width: 10%;
+		height: 10%;
+		transform: translateX(197px) translateY(20px);
+	}
+
+	#slidebanner span.title-slidebanner{
+		font-size: 25px;
+		width: 100%;
+		transform: translateX(-52px);
+		top: 232px;
+	}
+
+	#slidebanner a.slide-readmore{
+		width: 99px;
+		height: 30px;
+		text-align: center;
+		line-height: 30px;
+		font-size: 14px;
+		bottom: 205px;
+
+	}
+
+	.carousel-control-prev-icon{
+		margin-left: 116px!important;
+	}
+
+	.carousel-control-next-icon{
+		margin-right: 116px!important;
+	}
+
+}
+
+@media screen and (max-width: 480px){
+		a.logoweb{
+		width: 10%;
+		height: 10%;
+		transform: translateX(170px) translateY(20px);
+	}
+
+	#slidebanner span.title-slidebanner{
+		font-size: 18px;
+		width: 100%;
+		transform: translateX(-24px)  translateY(24px);
+		top: 232px;
+	}
+
+	#slidebanner a.slide-readmore{
+		width: 66px;
+		height: 20px;
+		text-align: center;
+		line-height: 20px;
+		font-size: 10px;
+		bottom: 85px;
+		transform: translateX(24px) translateY(24px);
+
+	}
+
+	.carousel-control-prev-icon{
+		margin-left: 16px!important;
+	}
+
+	.carousel-control-next-icon{
+		margin-right: 16px!important;
+	}
+}
+
+
