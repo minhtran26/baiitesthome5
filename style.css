@@ -3,10 +3,10 @@
 	margin: 0;
 }
 
-/*@import url('https://fonts.googleapis.com/css?family=Open+Sans');*/
+/*@import url('data:application/octet-stream;base64,QGZvbnQtZmFjZSB7CiAgZm9udC1mYW1pbHk6ICdPcGVuIFNhbnMnOwogIGZvbnQtc3R5bGU6IG5vcm1hbDsKICBmb250LXdlaWdodDogNDAwOwogIHNyYzogbG9jYWwoJ09wZW4gU2FucyBSZWd1bGFyJyksIGxvY2FsKCdPcGVuU2Fucy1SZWd1bGFyJyksIHVybChodHRwczovL2ZvbnRzLmdzdGF0aWMuY29tL3Mvb3BlbnNhbnMvdjE1L21lbThZYUdzMTI2TWlacEJBLVVGVlowZS50dGYpIGZvcm1hdCgndHJ1ZXR5cGUnKTsKfQo=');*/
 
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'open-san';
 }
 
 .wrapper{
@@ -384,6 +384,7 @@ p.bcb-date{
 	font-size: 14px;
 	line-height: 26px;
 	padding-top: 17px;
+	
 }
 
 .rv-content{
